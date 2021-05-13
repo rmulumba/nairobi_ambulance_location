@@ -1,0 +1,15 @@
+RANDOM_STATE = 22
+TRAIN_PATH = "../input/Train.csv"
+TEST_PATH = "../input/SampleSubmission.csv"
+MODEL_PATH = "../models/"
+OUTPUT_PATH = "../output/"
+INPUT_PATH = "../input/"
+TIME_BINS = [0, 3, 6, 9, 12, 15, 18, 21, 24]
+BIN_LABELS = ['0-3', '3-6', '6-9', '9-12', '12-15', '15-18', '18-21', '21-24']
+KMEANS_N_CLUSTERS = 6
+KMEANS_INIT = 'k-means++'
+KMEANS_ALGORITHM = 'full'
+KMEANS_MAX_ITER = 300
+DAY_NAMES = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+CLUSTER_DF = 'cluster_df.csv'
+UPDATED_TEST_SET = 'test_updated.csv'
